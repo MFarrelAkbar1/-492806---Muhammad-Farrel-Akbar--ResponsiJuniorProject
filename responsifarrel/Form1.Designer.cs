@@ -65,12 +65,13 @@
             // 
             // btnInsert
             // 
+            btnInsert.BackColor = SystemColors.ControlLightLight;
             btnInsert.Location = new Point(12, 207);
             btnInsert.Name = "btnInsert";
             btnInsert.Size = new Size(75, 23);
             btnInsert.TabIndex = 2;
             btnInsert.Text = "Insert";
-            btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.UseVisualStyleBackColor = false;
             btnInsert.Click += btnInsert_Click;
             // 
             // btnUpdate
@@ -151,6 +152,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = SystemColors.ActiveCaption;
             pictureBox1.Location = new Point(12, 32);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(55, 50);
