@@ -12,7 +12,7 @@ namespace responsifarrel
         }
 
         private NpgsqlConnection conn;
-        string connstring = "Host=localhost;Port=5432;Username=postgres;Password=informatika;Database=responsifarrel";
+        string connstring = "Host=localhost;Port=5432;Username=postgres;Password=informatika;Database=responsimfarrelakbar";
 
         public DataTable dt;
         public static NpgsqlCommand cmd;
